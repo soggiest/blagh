@@ -93,4 +93,5 @@ Let's take a look at what's going:
   * Copies the `/etc/ssl/certs/` to the `ssl-certs` emptyDir volume
 
 The initContainer and the main container share the `ssl-certs` directory, which now contains a list of trusted certs. The main `Gangway` container mounts the `ssl-certs` volume to `/etc/ssl/certs` directory, which is the root directory for trusted certs. With your custom cert now in this directory when the container starts up it will be trusted by Gangway when it starts. All without changing the base image. Neat, huh?
+
 ---
