@@ -1,5 +1,5 @@
 ---
-title: Custom SSL Certs in Kubernets using initContainers
+title: Custom SSL Certs in Kubernetes using initContainers
 lang: en
 date: 2018-07-15 18:43:37
 tags: SSL
