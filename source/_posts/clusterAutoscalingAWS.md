@@ -1,3 +1,9 @@
+---
+title: Kubernetes Cluster Autoscaling in AWS
+lang: en
+date: 2019-03-16
+tags: autoscaling, AWS
+---
 # Kubernetes Cluster Autoscaling in AWS
 
 ## Building an AMI
